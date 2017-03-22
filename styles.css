@@ -1,0 +1,364 @@
+﻿.photo-page {
+  margin: 0 auto;
+  max-width: 1350px;
+}
+
+.header {
+  background-image: url(6b4e13103e0dceb9fe89c82b18c3d641.png);
+  width: 1350px;
+  height: 500px;
+}
+
+.header-content {
+  margin-left: 205px;
+  padding-top: 25px;
+}
+
+.logo {
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header-content__text {
+  font-family: Myriad Pro;
+  font-size: 45px;
+  color: white;
+}
+
+.header-content__light-text {
+  font-weight: 100;
+  margin-top: 147px;
+}
+
+.header-content__bold-text {
+  font-weight: bold;
+  margin-top: -55px;
+}
+
+.header-content__comment {
+  font-family: Myriad Pro;
+  font-size: 26px;
+  font-weight: 100;
+  color: white;
+  margin-top: -22px;
+}
+
+.camera {
+  margin-right: 20px;
+  display: inline-block;
+  width: 299px;
+  height: 269px;
+  outline: 1px #e5e5e5 solid;
+}
+
+.camera-active,
+.camera:hover {
+  outline: 5px #f26522 solid;
+  outline-offset: -4px;
+  color: #f26522;
+}
+
+.camera-inactive {
+  opacity: 0.5;
+}
+
+.camera-content {
+  display: inline-block;
+  font-family: Myriad Pro;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.camera-content-inactive {
+  text-decoration: underline;
+}
+
+.camera-content-active,
+.camera-content:hover {
+  text-decoration: none;
+}
+
+.camera-1-description {
+  margin-bottom: 0px;
+}
+
+.select-camera-model {
+  margin-top: 32px;
+  margin-left: 205px;
+}
+
+.select-camera-model__header {
+  font-family: Myriad Pro;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.select-camera-model__comment {
+  font-weight: 100;
+  font-family: Myriad Pro;
+  font-size: 17px;
+  margin-top: -16px;
+}
+
+.cameras {
+  margin-top: 42px;
+}
+
+.cource {
+  margin-right: 20px;
+  display: inline-block;
+  width: 460px;
+  height: 362px;
+  outline: 1px #e5e5e5 solid;
+}
+
+.cource-active,
+.cource:hover {
+  outline: 5px #f26522 solid;
+  outline-offset: -4px;
+  color: #f26522;
+}
+
+.cource-inactive {
+  opacity: 0.5;
+}
+
+.cource__big-description {
+  font-family: Myriad Pro;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.cource__big-description-inactive {
+  text-decoration: underline;
+}
+
+.cource__big-description-active,
+.cource__big-description:hover {
+  text-decoration: none;
+}
+
+.cource__small-description {
+  font-family: Arial;
+  font-size: 13px;
+}
+
+.cource-1-description {
+  margin-top: 0px;
+}
+
+.select-photo-courses__header {
+  font-family: Myriad Pro;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.select-photo-courses__comment {
+  font-weight: 100;
+  font-family: Myriad Pro;
+  font-size: 17px;
+  margin-top: -16px;
+}
+
+.select-photo-courses {
+  margin-top: 61px;
+  margin-left: 205px;
+}
+
+.courses {
+  margin-top: 32px;
+}
+
+@charset "UTF-8";
+
+.start-training {
+  margin-top: 70px;
+  margin-left: 205px;
+}
+
+.start-training__header {
+  font-family: Myriad Pro;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.start-training__comment {
+  font-weight: 100;
+  font-family: Myriad Pro;
+  font-size: 17px;
+  margin-top: -16px;
+}
+
+.find-promocode {
+  margin-top: -4px;
+}
+
+.find-promocode__show-guide {
+  border-bottom: dashed 1px;
+  text-decoration: none;
+  color: #0f91ff;
+  font-family: Myriad Pro;
+  font-size: 18px;
+}
+
+.promocode {
+  width: 1350px;
+  /*��� ������ ����� ����� ��-�������*/
+  height: 279px;
+  background-color: #ebebeb;
+  margin-left: -205px;
+  /*��� ����*/
+  margin-top: 22px;
+}
+
+.promocode-hidden {
+  display: none;
+}
+
+.promocode-content {
+  display: inline-block;
+  margin-left: 205px;
+  margin-top: 25px;
+}
+
+.promocode__image {
+  display: inline-block;
+}
+
+.promocode-description {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -103px;
+}
+
+.promocode-description_average {
+  margin-top: -2px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.promocode-description_small {
+  font-family: Arial;
+  font-size: 13px;
+}
+
+.new-user-form {
+  margin-top: 40px;
+  margin-left: 205px;
+}
+
+.new-user-input-block {
+  display: inline-block;
+  margin-right: 79px;
+}
+
+.new-user-input-block__label {
+  font-family: Myriad Pro;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.new-user-input-block__input {
+  border: 1px solid grey;
+  height: 47px;
+  font-size: 35px;
+  margin-top: 5px;
+}
+
+.new-user-input-block__input_email-input {
+  width: 396px;
+}
+
+.new-user-input-block__input_code-input {
+  width: 166px;
+}
+
+.new-user-form__hint {
+  font-family: Arial;
+  font-style: normal;
+  font-size: 13px;
+  color: #848484;
+  margin-top: 5px;
+}
+
+.new-user-form__form-submit {
+  width: 381px;
+  height: 58px;
+  background-color: #5e9800;
+  border: none;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin-top: 12px;
+}
+
+.new-user-input-block_checked {
+  line-height: 100%;
+  margin-left: 10px;
+  /*margin-right: -30px;*/
+}
+
+.new-user-input-block_hidden {
+  display: none;
+}
+
+footer {
+  margin-top: 146px;
+  margin-bottom: 200px;
+  margin-left: 205px;
+}
+
+.footer_line {
+  margin-left: -53px;
+  width: 940px;
+  color: #e5e5e5;
+}
+
+.copyright {
+  margin-left: -12px;
+  margin-top: 26px;
+}
+
+.copyright_text {
+  font-family: Arial;
+  font-style: normal;
+  font-size: 13px;
+  color: #495459;
+}
+
+body {
+  margin-top: 0px;
+}
+
+.table-aligner {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.table-cell-aligner {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.none-margin-top {
+  margin-top: 0px;
+}
+
+q {
+  quotes: "\AB" "\BB";
+}
+
+
+/*# sourceMappingURL=styles.css.map*/
