@@ -5,145 +5,143 @@
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-		<div id="root">
-			<div data-reactroot="" class="photo-page">
-				<div class="header">
-					<div class="header-content">
-						<h1 class="logo">Логотип</h1>
-						<p class="header-content__text header-content__light-text">Поздравляем с покупкой</p>
-						<p class="header-content__text header-content__bold-text">фотоаппарата SONY</p>
-						<p class="header-content__comment">Самое время научиться делать потрясающие фотографии,<br>
-						используя весь потенциал вашей новой фотокамеры</p>
-					</div>
+		<div class="photo-page">
+			<div class="header">
+				<div class="header-content">
+					<h1 class="logo">Логотип</h1>
+					<p class="header-content__text header-content__light-text">Поздравляем с покупкой</p>
+					<p class="header-content__text header-content__bold-text">фотоаппарата SONY</p>
+					<p class="header-content__comment">Самое время научиться делать потрясающие фотографии,<br>
+					используя весь потенциал вашей новой фотокамеры</p>
 				</div>
-				<div class="select-camera-model">
-					<h1 class="select-camera-model__header">1. Выберите модель вашей камеры Sony</h1>
-					<p class="select-camera-model__comment">Чтобы выбрать подходящий интерактивный курс фотографии, укажите модель вашей фотокамеры Sony</p>
-					<div class="cameras">
-						<div id="camera-1" class="camera">
-							<div class="table-aligner">
-								<div class="table-cell-aligner">
-									<div id="camera-content-1" class="camera-content camera-content-inactive">
-										<img src="a3852fb7e8fc1a2036037886cc65f3a1.png" alt="camera-1">
-										<p class="camera-1-description">Беззеркальные камеры<br>
-										Sony Alpha 3000, 3500, 5000,<br>
-										5100, 6000, NEX-5, NEX-5T, NEX-6</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div id="camera-2" class="camera">
-							<div class="table-aligner">
-								<div class="table-cell-aligner">
-									<div id="camera-content-2" class="camera-content camera-content-inactive">
-										<img src="4d511567bd74993c50a969671804d841.png" alt="camera-2">
-										<p>Зеркальные фотокамеры<br>
-										Sony SLT-A58, SLT-A65, SLT-A77,<br>
-										ILCA77M2, Alpha SLT-A99</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div id="camera-3" class="camera">
-							<div class="table-aligner">
-								<div class="table-cell-aligner">
-									<div id="camera-content-3" class="camera-content camera-content-inactive">
-										<img src="045bb9389d07aa01b823183200084467.png" alt="camera-3">
-										<p>Полнокадровые камеры<br>
-										Sony Alpha 7, 7R, 7S, ILCA77M2,<br>
-										Alpha SLT-99</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="select-photo-courses">
-					<h1 class="select-photo-courses__header">2. Выберите подходящий фотокурс</h1>
-					<p class="select-photo-courses__comment">Вы можете выбрать курс для новичков и изучать основы фотографии и функции вашей фотокамеры Sony, или курс<br>
-					для продвинутых фотографов и погрузиться в изучение приёмов композиции, работы со светом и съемки в ручном режиме.</p>
-					<div class="courses">
-						<div id="cource-1" class="cource">
-							<div class="table-aligner">
-								<div class="table-cell-aligner">
-									<div>
-										<img src="cb53305cd5fbb14151424047a527b8df.png" alt="cource-1">
-										<div id="cource-description-1" class="cource__big-description cource__big-description-inactive">
-											<p>Зеркальные камеры SONY. Основы фотографии.</p>
-										</div>
-										<div class="cource__small-description">
-											<p>Знакомство с вашей фотокамерой<br>
-											Изучаем основные настройки<br>
-											Съемка в автоматическом режиме<br>
-											Советы начинающим фотографам</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div id="cource-2" class="cource">
-							<div class="table-aligner">
-								<div class="table-cell-aligner">
-									<div>
-										<img src="9a771b6dac3bf76413e36dc9e166e1d0.png" alt="cource-2">
-										<div id="cource-description-2" class="cource__big-description cource__big-description-inactive">
-											<p>Фотография с SONY. Продвинутый курс.</p>
-										</div>
-										<div class="cource__small-description">
-											<p>Композиция. Работа с кадром<br>
-											Съёмка в различных условиях освещения<br>
-											Снимаем уличный портрет<br>
-											Пейзажная фотография</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="start-training">
-					<h1 class="start-training__header">3. Начните обучение</h1>
-					<p class="start-training__comment">Укажите ваш адрес E-mail и введите специальный промокод, размещенный на упаковке вашего фотоаппарата,<br>
-					чтобы начать обучение на интерактивном фотокурсе<q>Фотография с Sony. Продвинутый курс</q></p>
-					<div class="find-promocode">
-						<a id="find-promocode-link" class="find-promocode__show-guide" href="#promocode">Как найти промокод?</a>
-						<div id="promocode" class="promocode promocode-hidden">
-							<div class="promocode-content">
-								<div class="promocode__image">
-									<img src="2f9fba9beff9b3fcce86fc3f5f402afb.png" alt="promocode">
-								</div>
-								<div class="promocode-description">
-									<p class="promocode-description_average">Промокод находится на рекламной наклейке,<br>
-									размещенной на упаковке вашей фотокамеры Sony.</p>
-									<p class="promocode-description_small">Если вы не нашли наклейку или у вас есть вопросы, свяжитесь с нашей<br>
-									службой поддержки по телефону 8 800 333-16-77 или электронной почте<br>
-									support@fotoshkola.net.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<form id="new-user-form" class="new-user-form">
-					<div class="new-user-input-block">
-						<span class="new-user-input-block__label">Ваш адрес E-mail:</span><br>
-						<input id="email-input" type="text" class="new-user-input-block__input new-user-input-block__input_email-input" name="email">
-						<span id="email-input-icon" class="new-user-input-block_hidden">
-							<img src="47fb74ab7c14d2abbe58625b3e0bcc70.png">
-						</span>
-					</div>
-					<div class="new-user-input-block">
-						<span class="new-user-input-block__label">Промо-код:</span><br>
-						<input id="code-input" type="text" class="new-user-input-block__input new-user-input-block__input_code-input" name="code">
-					</div>
-					<p class="new-user-form__hint">Мы вышлем ваш уникальный пароль и всю необходимую информацию<br>
-					для дальнейшего обучения </p>
-					<input type="submit" class="new-user-form__form-submit" value="Начать обучение">
-				</form>
-				<footer class="footer">
-					<hr class="footer_line">
-					<div class="copyright copyright_text">© 2014 - 2015. Все права защищены</div>
-				</footer>
 			</div>
+			<div class="select-camera-model">
+				<h1 class="select-camera-model__header">1. Выберите модель вашей камеры Sony</h1>
+				<p class="select-camera-model__comment">Чтобы выбрать подходящий интерактивный курс фотографии, укажите модель вашей фотокамеры Sony</p>
+				<div class="cameras">
+					<div id="camera-1" class="camera">
+						<div class="table-aligner">
+							<div class="table-cell-aligner">
+								<div id="camera-content-1" class="camera-content camera-content-inactive">
+									<img src="a3852fb7e8fc1a2036037886cc65f3a1.png" alt="camera-1">
+									<p class="camera-1-description">Беззеркальные камеры<br>
+									Sony Alpha 3000, 3500, 5000,<br>
+									5100, 6000, NEX-5, NEX-5T, NEX-6</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="camera-2" class="camera">
+						<div class="table-aligner">
+							<div class="table-cell-aligner">
+								<div id="camera-content-2" class="camera-content camera-content-inactive">
+									<img src="4d511567bd74993c50a969671804d841.png" alt="camera-2">
+									<p>Зеркальные фотокамеры<br>
+									Sony SLT-A58, SLT-A65, SLT-A77,<br>
+									ILCA77M2, Alpha SLT-A99</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="camera-3" class="camera">
+						<div class="table-aligner">
+							<div class="table-cell-aligner">
+								<div id="camera-content-3" class="camera-content camera-content-inactive">
+									<img src="045bb9389d07aa01b823183200084467.png" alt="camera-3">
+									<p>Полнокадровые камеры<br>
+									Sony Alpha 7, 7R, 7S, ILCA77M2,<br>
+									Alpha SLT-99</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="select-photo-courses">
+				<h1 class="select-photo-courses__header">2. Выберите подходящий фотокурс</h1>
+				<p class="select-photo-courses__comment">Вы можете выбрать курс для новичков и изучать основы фотографии и функции вашей фотокамеры Sony, или курс<br>
+				для продвинутых фотографов и погрузиться в изучение приёмов композиции, работы со светом и съемки в ручном режиме.</p>
+				<div class="courses">
+					<div id="cource-1" class="cource">
+						<div class="table-aligner">
+							<div class="table-cell-aligner">
+								<div>
+									<img src="cb53305cd5fbb14151424047a527b8df.png" alt="cource-1">
+									<div id="cource-description-1" class="cource__big-description cource__big-description-inactive">
+										<p>Зеркальные камеры SONY. Основы фотографии.</p>
+									</div>
+									<div class="cource__small-description">
+										<p>Знакомство с вашей фотокамерой<br>
+										Изучаем основные настройки<br>
+										Съемка в автоматическом режиме<br>
+										Советы начинающим фотографам</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="cource-2" class="cource">
+						<div class="table-aligner">
+							<div class="table-cell-aligner">
+								<div>
+									<img src="9a771b6dac3bf76413e36dc9e166e1d0.png" alt="cource-2">
+									<div id="cource-description-2" class="cource__big-description cource__big-description-inactive">
+										<p>Фотография с SONY. Продвинутый курс.</p>
+									</div>
+									<div class="cource__small-description">
+										<p>Композиция. Работа с кадром<br>
+										Съёмка в различных условиях освещения<br>
+										Снимаем уличный портрет<br>
+										Пейзажная фотография</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="start-training">
+				<h1 class="start-training__header">3. Начните обучение</h1>
+				<p class="start-training__comment">Укажите ваш адрес E-mail и введите специальный промокод, размещенный на упаковке вашего фотоаппарата,<br>
+				чтобы начать обучение на интерактивном фотокурсе<q>Фотография с Sony. Продвинутый курс</q></p>
+				<div class="find-promocode">
+					<a id="find-promocode-link" class="find-promocode__show-guide" href="#promocode">Как найти промокод?</a>
+					<div id="promocode" class="promocode promocode-hidden">
+						<div class="promocode-content">
+							<div class="promocode__image">
+								<img src="2f9fba9beff9b3fcce86fc3f5f402afb.png" alt="promocode">
+							</div>
+							<div class="promocode-description">
+								<p class="promocode-description_average">Промокод находится на рекламной наклейке,<br>
+								размещенной на упаковке вашей фотокамеры Sony.</p>
+								<p class="promocode-description_small">Если вы не нашли наклейку или у вас есть вопросы, свяжитесь с нашей<br>
+								службой поддержки по телефону 8 800 333-16-77 или электронной почте<br>
+								support@fotoshkola.net.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<form id="new-user-form" class="new-user-form">
+				<div class="new-user-input-block">
+					<span class="new-user-input-block__label">Ваш адрес E-mail:</span><br>
+					<input id="email-input" type="text" class="new-user-input-block__input new-user-input-block__input_email-input" name="email">
+					<span id="email-input-icon" class="new-user-input-block_hidden">
+						<img src="47fb74ab7c14d2abbe58625b3e0bcc70.png">
+					</span>
+				</div>
+				<div class="new-user-input-block">
+					<span class="new-user-input-block__label">Промо-код:</span><br>
+					<input id="code-input" type="text" class="new-user-input-block__input new-user-input-block__input_code-input" name="code">
+				</div>
+				<p class="new-user-form__hint">Мы вышлем ваш уникальный пароль и всю необходимую информацию<br>
+				для дальнейшего обучения </p>
+				<input type="submit" class="new-user-form__form-submit" value="Начать обучение">
+			</form>
+			<footer class="footer">
+				<hr class="footer_line">
+				<div class="copyright copyright_text">© 2014 - 2015. Все права защищены</div>
+			</footer>
 		</div>
 		<script src="main.js"></script>	
 	</body>
